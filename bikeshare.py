@@ -217,7 +217,7 @@ def user_stats(df):
 
     print("\nDamned was fast! This took %s seconds." % (time.time() - start_time))
 
-    # Show more with random sample of 5 line of dataframe raw data upon user input and go for more if user got some apetite mutliplying number of raw by 2
+    # Show more with 5 more line of dataframe raw data from beginning of dataframe upon user input and go for more if user got some apetite mutliplying number of raw by 2
     # from the 4th yes (or y, sure, why not)
 
 def more_data(df):
@@ -225,23 +225,22 @@ def more_data(df):
     start_time = time.time()
     loop_count = 0
     x = 5
+    start_row = 0
     while True:
         want_some_more = input("\nDo you feel like seeing more line of raw data or you're done, enter yes or no : ")
         if want_some_more.lower() in ['yes','y','sure','why not']:
             loop_count += 1
-            print(df.sample(n=x))
+            print(df.iloc[start_row: start_row + x])
+            start_row = start_row + x
             if loop_count == 2:
                 print("\nWoaw you're really a fan of raw data!")
                 continue
             elif loop_count == 3:
-                print("\nReally!?")
-                continue
-            elif loop_count == 4:
                 x *= 2
                 print("\nDon't you think it's enough!?")
                 continue
-            elif loop_count >= 5:
-                x *= 2
+            elif loop_count >= 4:
+                x *= 3
                 print("\nWhat about now?")
                 continue
 
