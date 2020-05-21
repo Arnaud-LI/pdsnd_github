@@ -17,7 +17,15 @@ It has been designed, based on user input such as a choice of city & period, to 
 5. Raw data sample: Display raw data upon user request
 
 ### Files used
-Include the files used
+1. Python file : bikeshare.py
+2. CSV data files: The bikeshare.py file is calling .csv files that need to hosted in same directory:
+- chicago.csv
+- new_york_city.csv
+- washington.csv
+
+Note that for the file to work locally you’ll need to have locally installed:
+- Python 3, NumPy and Pandas librairies installed (recommended using Anaconda)
+- A terminal application (Terminal on Mac and Linux or Cygwin on Windows)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project has been realized for the Udacity Nanodegre course of “Programming for Data Science with Python".
