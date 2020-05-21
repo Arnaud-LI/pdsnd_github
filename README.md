@@ -24,8 +24,9 @@ It has been designed, based on user input such as a choice of city & period, to 
 - washington.csv
 
 *Note that for the file to work locally you’ll need to have locally installed:*
-- Python 3, NumPy and Pandas librairies installed (recommended using Anaconda)
+- Python 3, NumPy and Pandas librairies installed (recommended using [Anaconda](https://www.anaconda.com/products/individual))
 - A terminal application (Terminal on Mac and Linux or Cygwin on Windows)
 
 ### Credits
 This project has been realized for the Udacity Nanodegre course of “Programming for Data Science with Python".
+Go see more [Udacity.com](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
