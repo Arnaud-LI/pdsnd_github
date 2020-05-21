@@ -236,13 +236,10 @@ def more_data(df):
                 print("\nWoaw you're really a fan of raw data!")
                 continue
             elif loop_count == 3:
-                print("\nReally!?")
-                continue
-            elif loop_count == 4:
                 x *= 2
                 print("\nDon't you think it's enough!?")
                 continue
-            elif loop_count >= 5:
+            elif loop_count >= 4:
                 x *= 2
                 print("\nWhat about now?")
                 continue
