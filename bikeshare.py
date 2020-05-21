@@ -240,7 +240,7 @@ def more_data(df):
                 print("\nDon't you think it's enough!?")
                 continue
             elif loop_count >= 4:
-                x *= 2
+                x *= 3
                 print("\nWhat about now?")
                 continue
 
