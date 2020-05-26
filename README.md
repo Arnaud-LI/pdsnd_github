@@ -23,9 +23,10 @@ It has been designed, based on user input such as a choice of city & period, to 
 - new_york_city.csv
 - washington.csv
 
+### Requirement
 *Note that for the file to work locally you’ll need to have locally installed:*
-- Python 3, NumPy and Pandas librairies installed (recommended using [Anaconda](https://www.anaconda.com/products/individual))
-- A terminal application (Terminal on Mac and Linux or Cygwin on Windows)
+- **Python 3**, **NumPy** and **Pandas librairies** installed (recommended using [**Anaconda**](https://www.anaconda.com/products/individual))
+- **A terminal application** (Terminal on Mac and Linux or Cygwin on Windows)
 
 ### Credits
 This project has been realized for the Udacity Nanodegre course of “Programming for Data Science with Python".
